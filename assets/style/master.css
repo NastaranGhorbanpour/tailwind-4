@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base{
+    p{
+        @apply font-[quattro-light] text-xl
+    }
+    a{
+        @apply font-[quattro-bold] text-xl
+    }
+    h1,h2,h3,h4{
+        @apply font-[yeseva]
+    }
+}
+
+@layer components{
+    .sections{
+        @apply w-full 2xl:container flex flex-wrap mx-auto p-10
+    }
+    .btn-1{
+        @apply w-[250px] h-[70px] border-r-6 border-b-6 border-t-1 border-l-1  flex flex-wrap justify-center content-center text-white font-[quattro-bold] text-xl
+    }
+    .backImageHeader{
+        background-image: url(../img/header-bg.png);
+    }
+    .backSec4{
+        background-image: url(../img/bg-lines-4.png);
+    }
+    .backSec7{
+        background-image: url(../img/dots-bg-half.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .backSec9{
+        background-image: url(../img/bg-lines-3.png);
+    }
+    
+    
+}
+
+@layer utilities{
+    .bt{
+        @apply border-2 border-b-black
+    }
+    .bt-r{
+        @apply border-2 border-b-red-900
+    }
+    
+}
+
+@theme{
+    --color-orange:#E15A40;
+    --color-orange-dark:#BA3217;
+    --color-brown:#A88970;
+    --color-light-brown:#E2CFC5;
+    --color-dark-brown:#4B4D4B;
+    --color-headline:#D9C0B4;
+    --color-header-bg:#FCF7EE;
+    --color-yellow:#FAF1E3;
+    --color-gray:#7D827E;
+    --color-dark-gray:#4B4D4B;
+}
+
+
+
+
+@font-face {
+    font-family: quattro-light ;
+    src: url(../font/QuattrocentoSans-Regular.ttf);
+}
+@font-face {
+    font-family: quattro-bold;
+    src: url(../font/QuattrocentoSans-Bold.ttf);
+}
+@font-face {
+    font-family: yeseva ;
+    src: url(../font/YesevaOne-Regular.ttf);
+}
+
