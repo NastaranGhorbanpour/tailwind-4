@@ -1,7 +1,7 @@
 # tailwind-4
 ## first project whit tailwind 4
 ### responsive
-![Image](https://github.com/user-attachments/assets/bf88d6d8-8e90-426c-8ec7-f9ae2e2356e2)
+![Image](https://github.com/user-attachments/assets/5a42d878-2e5c-43eb-8f81-04cc7183847f)
  
 - [Demo Project](https://nastaranghorbanpour.github.io/slider-menu/)
 - Developed by Nastaran Ghorbanpour
